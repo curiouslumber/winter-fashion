@@ -25,7 +25,7 @@ const Tab1: React.FC = () => {
               fontSize: "20px",
             }}
           >
-            This is Ionic React with Capacitor.  
+            This is Ionic React with Capacitor
           </IonText>  
         </IonCard>    
 
