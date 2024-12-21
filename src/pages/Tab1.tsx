@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCard, IonContent, IonHeader, IonPage, IonText, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
@@ -16,7 +16,19 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Tab 1</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+
+        <IonCard>
+          <IonText
+            style={{
+              color: "white",
+              padding: "10px",
+              fontSize: "20px",
+            }}
+          >
+            This is Ionic React with Capacitor.  
+          </IonText>  
+        </IonCard>    
+
       </IonContent>
     </IonPage>
   );
