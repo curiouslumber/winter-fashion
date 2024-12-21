@@ -1,0 +1,8 @@
+{
+  "name": "Winter Fashion",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "b8ee3469"
+}
